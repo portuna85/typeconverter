@@ -1,4 +1,4 @@
-package formatter;
+package hello.typeconverter.formatter;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.Formatter;
