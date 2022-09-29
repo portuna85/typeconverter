@@ -32,6 +32,7 @@ public class FormatterController {
     static class Form {
         @NumberFormat(pattern = "###,###")
         private Integer number;
+
         @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
         private LocalDateTime localDateTime;
     }
